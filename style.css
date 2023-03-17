@@ -1,0 +1,15 @@
+html {
+    background-color:#020659;
+    margin:5px;
+}
+body {
+    min-width:320px;
+    background-color:#fff;
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+}
+nav {
+    background-color:#020873;
+}
+header {
+    background-color: #2104D9, #020659,#000;
+}
