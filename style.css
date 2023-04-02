@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -298,4 +299,20 @@ p,dl,dd {
 }
 footer p {
     font-size:.75em;
+=======
+html {
+    background-color:#020659;
+    margin:5px;
+}
+body {
+    min-width:320px;
+    background-color:#fff;
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+}
+nav {
+    background-color:#020873;
+}
+header {
+    background-color: #2104D9, #020659,#000;
+>>>>>>> 7f951e6c225e84ce0936b22264292a6224aeed9e
 }
