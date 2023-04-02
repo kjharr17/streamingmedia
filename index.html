@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MuzakMaker--Smooth Jazz</title>
 </head>
 <body>
@@ -11,110 +12,154 @@
         <h1>Smooth Jazz</h1>
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
     </header>
-    <nav>
+    <nav id="home">
+        <h2>Main Navigation</h2>
+            <input type="checkbox" id="dropdown">
+        <label for="dropdown"><span></span></label>
         <ul>
-            <li>MuzakMaker</li>
-            <li>Trending Songs</li>
-            <li>Your playlists</li>
-            <li>Curated Playlists</li>
-            <li>duke-silver.png</li>
+            <li><a href="#home">MuzakMaker</a></li>
+            <li><a href="#trending">Trending Songs</a></li>
+            <li><a href="#playlists">Your playlists</a></li>
+            <li><a href="#curated">Curated Playlists</a></li>
+            <li><a href="user"><img src="images/duke-silver.png" alt="duke silver playing the saxophone"></a></li>
         </ul>
     </nav>
     <main>
-        <section>
-        <h2>Trending Songs</h2>
+        <section id="trending">
+            <h2>Trending Songs</h2>
+            <div class="scroll">
             <section>
-            Aloma
-            Artist Cali
-            aloma-cover.png
-            aloma.mp3
+                <h3>Aloma</h3>
+                <dl>
+                <dt>Artist</dt>
+                <dd>Cali</dd>
+                </dl>
+                <img src="images/aloma-cover.png" alt="dove flying on black background">
+                <audio>
+                    <source src="audio/aloma.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            <section>
+                    <h3>My Road</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Nesterouk</dd>
+                    </dl>
+                <img src="images/my-road-cover.png" alt="middle of the road in a desert highway">
+                <audio>
+                    <source src="audio/my-road.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            <section>
+                    <h3>Papaya</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Dredstudio</dd>
+                    </dl>
+
+                <img src="images/papaya-cover.png" alt="papaya cut in half on green background">
+                <audio>
+                    <source src="audio/papaya.mp3" type="audio/mp3">
+                </audio>
             </section>
 
             <section>
-            My Road
-            Artist Nesterouk
-            my-road-cover.png
-            my-road.mp3
+                <h3>Smoothies</h3>
+                <dl><dt>Artist</dt><dd>Black Rhomb</dd></dl>
+                <img src="images/smoothies-cover.png" alt="smoothie and fruits">
+                <audio>
+                    <source src="audio/aloma.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <section>
+                <h3>Successful Performance</h3>
+                <dl><dt>Artist</dt><dd>Ricky Bombino</dd></dl>
+                <img src="images/successful-performance-cover.png" alt="happy guy smiling with red shirt">
+                <audio>
+                    <source src="audio/successful-performance.mp3" type="audio/mp3">
+                </audio>
+                </section>
+                </div>
+            </section>
+
+            <a>More trending</a>
+        </section>
+
+        <section id="playlists">
+        <h2>Your Playlists</h2>
+            <section>
+                <img src="images/best-of-2020-cover.png" alt="2020 numbers with sparklers">
+                <h3>Best of 2020</h3>
+                <p>The music that got you through the lock down.</p>
+            </section>
+            
+
+            <section>
+                <img src="images/pumpkin-spice-cover.png" alt="latte art coffee design">
+                <h3>Pumpkin Spice</h3>
+                <p>Creamy and spicy, just like your favorite autumnal latte.</p>
             </section>
 
 
-            Papaya
-            Artist Dredstudio
-            papaya-cover.png
-            papaya.mp3
+            <section>
+                <img src="images/quiet-storm-cover.png" alt="thunder and clouds in blue and purple sky">
+                <h3>Quiet Storm</h3>
+                <p>Slow tempos and relaxed rhythms.</p>
+            </section>
 
-            Smoothies
-            Artist Black Rhomb
-            smoothies-cover.png
-            smoothies.mp3
+            <section>
+                <img src="images/smooth-jazz-cover.png" alt="guy smiling looking off into the distance">
+                <h3>Smooth Jazz</h3>
+                <p>The pioneers of smooth jazz</p>
+            </section>
 
-            Successful Performance
-            Artist Ricky Bombino
-            successful-performance-cover.png
-            successful-performance.mp3
+            <section>
+                <img src="images/smooth-study-cover.png" alt="someone typing on a computer">
+                <h3>Smooth Study</h3>
+                <p>Background music to keep you going while you study. </p>
+            </section>
 
-            More trending
+            <a>All your playlists</a>
         </section>
 
-        <section>
-        Your Playlists
-        best-of-2020-cover.png
-        Best of 2020
-        The music that got you through the lock down.
+        <section id="curated">
+            <h2>Curated Playlists</h2>
+            <section>
+                <img src="images/boozy-brunch-cover.png" alt="cheers cups for brunch">
+                <h3>Boozy Brunch</h3>
+                <p>Light up the afternoon with these energetic hits. </p>
+            </section>
 
+            <section>
+                <img src="images/dinner-party-cover.png" alt="a dinner table that is set">
+                <h3>Dinner Party</h3>
+                <p>Background music to give your party life, but allow your guests to chat. </p>
+            </section>
 
-        pumpkin-spice-cover.png
-        Pumpkin Spice
-        Creamy and spicy, just like your favorite autumnal latte.
+            <section>
+                <img src="images/mellow-cover.png" alt="two people sitting on a bench in a park">
+                <h3>Mellow</h3>
+                <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+            </section>
 
+            <section>
+                <img src="images/jazz-chill-cover.png" alt="rose petals">
+                <h3>Jazz and Chill</h3>
+                <p>Set the mood with these silky sounds.</p>
+            </section>
 
-        quiet-storm-cover.png
-        Quiet Storm
-        Slow tempos and relaxed rhythms. 
-
-
-        smooth-jazz-cover.png
-        Smooth Jazz
-        The pioneers of smooth jazz
-
-
-        smooth-study-cover.png
-        Smooth Study
-        Background music to keep you going while you study. 
-
-
-        All your playlists
+            <section>
+                <img src="images/smooth-saxophone-cover.png" alt="people playing saxophone in a band">
+                <h3>Jazz Saxophone</h3>
+                <p>The greatest collection of your sax favorites.</p>
+            </section>
+            <a>More Curated</a>
         </section>
-
-        <section>
-        Curated Playlists
-        boozy-brunch-cover.png
-        Boozy Brunch
-        Light up the afternoon with these energetic hits. 
-
-        dinner-party-cover.png
-        Dinner Party
-        Background music to give your party life, but allow your guests to chat. 
-
-        mellow-cover.png
-        Mellow
-        Relax after a stressful day with this collection of extra smooth jazz.
-
-        jazz-chill-cover.png
-        Jazz and Chill
-        Set the mood with these silky sounds.
-
-        smooth-saxophone-cover.png
-        Jazz Saxophone
-        The greatest collection of your sax favorites.
-
-        More curated
-        </section>
-</main>
-
+    </main>
 
 <footer>
-    Copyright 2022 Smooth Jazz
+    <p><small>Copyright 2022 Smooth Jazz</small></p>
 </footer>
     
 </body>
